@@ -1,0 +1,3 @@
+<app-demo [name]="'test'" *ngIf="display"></app-demo>
+<button (click)="display = !display">Toggle</button>
+<h1 #demo *ngFor="let item of data">Hi</h1>
